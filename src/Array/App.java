@@ -9,6 +9,12 @@ public class App {
 		
 		float[] floatVariableArray = {0.0f,1.0f,2.0f,3.0f,4.0f};	
 		System.out.println(floatVariableArray[4]);
+		
+		String[] stringArray = {"Chaand","John","Pooja","Mia","Salim"};
+		
+		for(String name: stringArray){
+			System.out.println(name);
+		}
 
 	}
 
